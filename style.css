@@ -6,8 +6,6 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    
-    
 }
 
 .hero {     
@@ -550,6 +548,11 @@ h5 {
 }
 
 @media (max-width: 380px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     .logo {
         display: none;
     }
@@ -593,7 +596,6 @@ h5 {
     }
 
     .nav_links li {
-
         display: flex;
     }
 }
